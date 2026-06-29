@@ -1,0 +1,24 @@
+.case-aprendizajes {
+  padding-bottom: var(--space-xl);
+}
+
+.case-aprendizajes__inner {
+}
+
+.case-aprendizajes__title {
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  font-weight: var(--weight-medium);
+  line-height: normal;
+  color: var(--color-gray-900);
+  margin-bottom: 20px;
+}
+
+.case-aprendizajes__body {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  font-weight: var(--weight-medium);
+  line-height: var(--lh-base);
+  color: var(--color-gray-900);
+  margin-bottom: var(--space-sm);
+}

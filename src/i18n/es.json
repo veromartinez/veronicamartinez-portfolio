@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "caseStudies": "Casos de estudio",
+    "experience": "Experiencia",
+    "about": "Sobre mí"
+  },
+  "home": {
+    "heroLabel": "Diseñadora UX/UI & Analista Funcional",
+    "heroHeadline": "Transformo problemas complejos en soluciones digitales viables con impacto en el negocio",
+    "heroBody": "Abordo el desarrollo de productos digitales desde la intersección del análisis funcional y el diseño de experiencia. Mi trabajo es guiar el proceso para que la complejidad técnica, las necesidades del usuario y los objetivos comerciales se alineen en soluciones intuitivas, viables y rentables.",
+    "heroLink": "Sobre mí",
+    "casesTitle": "Casos de estudio",
+    "casesCounter": "001 — 005 Destacados",
+    "skillsTitle": "Habilidades",
+    "skillsLabel": "Competencias principales",
+    "aboutTitle": "Sobre",
+    "aboutTitleItalic": "mí",
+    "aboutLink": "Experiencia",
+    "contactLabel": "Contacto",
+    "contactHeadline": "Creemos valor duradero",
+    "contactEmail": "veromartinez.dg@gmail.com"
+  },
+  "experience": {
+    "title": "Experiencia",
+    "subtitle": "Investigar. Analizar. Diagnosticar. Sintetizar. Diseñar. Negociar. Argumentar. Prototipar. Testear. Validar. Gestionar. Documentar."
+  },
+  "caseStudies": {
+    "title": "Casos de estudio",
+    "counter": "001 — 005 Destacados"
+  },
+  "caseStudy": {
+    "roleLabel": "Rol",
+    "yearLabel": "Año",
+    "industryLabel": "Industria",
+    "prev": "← Anterior",
+    "next": "Siguiente →",
+    "miRolTitle": "Mi rol",
+    "miRolIntro": "Como diseñadora en el proyecto propuse y ejecuté:",
+    "impactoTitle": "Impacto",
+    "impactoIntro": "Como resultado del rediseño, las pruebas mostraron:",
+    "aprendizajesTitle": "Aprendizajes"
+  },
+  "footer": {
+    "linkedin": "LinkedIn",
+    "behance": "Behance",
+    "credit": "Hecho con Figma + Claude Code"
+  }
+}

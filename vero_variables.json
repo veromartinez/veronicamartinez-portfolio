@@ -1,0 +1,302 @@
+[
+  {
+    "collection": "font-family",
+    "mode": "Mode 1",
+    "variables": {
+      "Gray 900": {
+        "$type": "COLOR",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$description": "",
+        "$value": "#2e2e2e"
+      },
+      "Gray 700": {
+        "$type": "COLOR",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$description": "",
+        "$value": "#434d52"
+      },
+      "Gray 400": {
+        "$type": "COLOR",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$description": "",
+        "$value": "#b4b1ad"
+      },
+      "Gray 100": {
+        "$type": "COLOR",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$description": "",
+        "$value": "#f5f5f5"
+      },
+      "Primary": {
+        "$type": "COLOR",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$description": "",
+        "$value": "#4db6ac"
+      },
+      "font-size": {
+        "0": {
+          "$type": "FLOAT",
+          "$scopes": [
+            "FONT_SIZE"
+          ],
+          "$description": "",
+          "$value": 13
+        },
+        "1": {
+          "$type": "FLOAT",
+          "$scopes": [
+            "FONT_SIZE"
+          ],
+          "$description": "",
+          "$value": 30
+        },
+        "2": {
+          "$type": "FLOAT",
+          "$scopes": [
+            "FONT_SIZE"
+          ],
+          "$description": "",
+          "$value": 16
+        },
+        "3": {
+          "$type": "FLOAT",
+          "$scopes": [
+            "FONT_SIZE"
+          ],
+          "$description": "",
+          "$value": 12
+        },
+        "4": {
+          "$type": "FLOAT",
+          "$scopes": [
+            "FONT_SIZE"
+          ],
+          "$description": "",
+          "$value": 48
+        },
+        "5": {
+          "$type": "FLOAT",
+          "$scopes": [
+            "FONT_SIZE"
+          ],
+          "$description": "",
+          "$value": 14
+        },
+        "6": {
+          "$type": "FLOAT",
+          "$scopes": [
+            "FONT_SIZE"
+          ],
+          "$description": "",
+          "$value": 20
+        },
+        "7": {
+          "$type": "FLOAT",
+          "$scopes": [
+            "FONT_SIZE"
+          ],
+          "$description": "",
+          "$value": 26
+        },
+        "8": {
+          "$type": "FLOAT",
+          "$scopes": [
+            "FONT_SIZE"
+          ],
+          "$description": "",
+          "$value": 36
+        }
+      },
+      "font-weight": {
+        "medium": {
+          "$type": "FLOAT",
+          "$scopes": [
+            "FONT_WEIGHT"
+          ],
+          "$description": "",
+          "$value": 500
+        },
+        "regular": {
+          "$type": "FLOAT",
+          "$scopes": [
+            "FONT_WEIGHT"
+          ],
+          "$description": "",
+          "$value": 400
+        },
+        "extrabold": {
+          "$type": "FLOAT",
+          "$scopes": [
+            "FONT_WEIGHT"
+          ],
+          "$description": "",
+          "$value": 800
+        },
+        "italic": {
+          "$type": "FLOAT",
+          "$scopes": [
+            "FONT_WEIGHT"
+          ],
+          "$description": "",
+          "$value": 400
+        }
+      },
+      "line-height": {
+        "0": {
+          "$type": "FLOAT",
+          "$scopes": [
+            "LINE_HEIGHT"
+          ],
+          "$description": "",
+          "$value": 17
+        },
+        "1": {
+          "$type": "FLOAT",
+          "$scopes": [
+            "LINE_HEIGHT"
+          ],
+          "$description": "",
+          "$value": 36
+        },
+        "2": {
+          "$type": "FLOAT",
+          "$scopes": [
+            "LINE_HEIGHT"
+          ],
+          "$description": "",
+          "$value": 28
+        },
+        "3": {
+          "$type": "FLOAT",
+          "$scopes": [
+            "LINE_HEIGHT"
+          ],
+          "$description": "",
+          "$value": 15
+        },
+        "4": {
+          "$type": "FLOAT",
+          "$scopes": [
+            "LINE_HEIGHT"
+          ],
+          "$description": "",
+          "$value": 60
+        },
+        "5": {
+          "$type": "FLOAT",
+          "$scopes": [
+            "LINE_HEIGHT"
+          ],
+          "$description": "",
+          "$value": 20
+        },
+        "6": {
+          "$type": "FLOAT",
+          "$scopes": [
+            "LINE_HEIGHT"
+          ],
+          "$description": "",
+          "$value": 18
+        },
+        "7": {
+          "$type": "FLOAT",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$description": "",
+          "$value": 0
+        }
+      },
+      "New group": {
+        "Tipografia": {
+          "$type": "STRING",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$description": "",
+          "$value": "Playfair"
+        },
+        "Tipografia 2": {
+          "$type": "STRING",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$description": "",
+          "$value": "Manrope"
+        }
+      },
+      "Gray 800": {
+        "$type": "COLOR",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$description": "",
+        "$value": "#334155"
+      }
+    }
+  },
+  {
+    "collection": "Colors",
+    "mode": "Mode 1",
+    "variables": {
+      "Gray900": {
+        "$type": "COLOR",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$description": "",
+        "$value": "#2e2e2e"
+      },
+      "Gray800": {
+        "$type": "COLOR",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$description": "",
+        "$value": "#334155"
+      },
+      "Gray700": {
+        "$type": "COLOR",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$description": "",
+        "$value": "#434d52"
+      },
+      "Gray400": {
+        "$type": "COLOR",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$description": "",
+        "$value": "#b4b1ad"
+      },
+      "Gray100": {
+        "$type": "COLOR",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$description": "",
+        "$value": "#f5f5f5"
+      },
+      "Primary": {
+        "$type": "COLOR",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$description": "",
+        "$value": "#4db6ac"
+      }
+    }
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Home",
+    "caseStudies": "Case studies",
+    "experience": "Experience",
+    "about": "About"
+  },
+  "home": {
+    "heroLabel": "UX/UI Designer & Functional Analyst",
+    "heroHeadline": "I transform complex problems into viable digital solutions with business impact",
+    "heroBody": "I approach digital product development from the intersection of functional analysis and experience design. My work is to guide the process so that technical complexity, user needs, and business objectives align into intuitive, viable, and profitable solutions.",
+    "heroLink": "About me",
+    "casesTitle": "Case studies",
+    "casesCounter": "001 — 005 Featured",
+    "skillsTitle": "Skills",
+    "skillsLabel": "Core competencies",
+    "aboutTitle": "About",
+    "aboutTitleItalic": "me",
+    "aboutLink": "Experience",
+    "contactLabel": "Contact",
+    "contactHeadline": "Let's create lasting value",
+    "contactEmail": "veromartinez.dg@gmail.com"
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "Research. Analyze. Diagnose. Synthesize. Design. Negotiate. Argue. Prototype. Test. Validate. Manage. Document."
+  },
+  "caseStudies": {
+    "title": "Case studies",
+    "counter": "001 — 005 Featured"
+  },
+  "caseStudy": {
+    "roleLabel": "Role",
+    "yearLabel": "Year",
+    "industryLabel": "Industry",
+    "prev": "← Previous",
+    "next": "Next →",
+    "miRolTitle": "My role",
+    "miRolIntro": "As designer on the project I proposed and executed:",
+    "impactoTitle": "Impact",
+    "impactoIntro": "As a result of the redesign, tests showed:",
+    "aprendizajesTitle": "Learnings"
+  },
+  "footer": {
+    "linkedin": "LinkedIn",
+    "behance": "Behance",
+    "credit": "Made with Figma + Claude Code"
+  }
+}

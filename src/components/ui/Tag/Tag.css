@@ -1,0 +1,13 @@
+.tag {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: var(--text-14);
+  font-weight: var(--weight-medium);
+  color: var(--color-gray-900);
+  background-color: transparent;
+  border: 1px solid var(--color-gray-400);
+  padding: 10px 21px 11.5px;
+  border-radius: 9999px;
+  line-height: 20px;
+  white-space: nowrap;
+}

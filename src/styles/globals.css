@@ -1,0 +1,19 @@
+/* Layout helper — used across all pages */
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --gutter: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --gutter: 16px;
+  }
+}
