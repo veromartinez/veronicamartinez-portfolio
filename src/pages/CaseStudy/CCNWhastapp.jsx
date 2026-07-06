@@ -1,6 +1,7 @@
 import CaseHero from './sections/CaseHero'
 import CaseSection from './sections/CaseSection'
 import CaseMiRol from './sections/CaseMiRol'
+import CaseImageGrid from './sections/CaseImageGrid'
 import CaseAprendizajes from './sections/CaseAprendizajes'
 import CaseNav from './sections/CaseNav'
 import './CaseStudy.css'
@@ -17,9 +18,11 @@ export default function CCNWhastapp() {
         industria="Retail"
       />
 
+      <CaseImageGrid images={['/images/case-studies/ccn-whatsapp/01-whastapp-1120px.jpg']} />
+
       <CaseSection
         label="Contexto"
-        title="Falta el titulo"
+        title="Llevar fidelización a WhatsApp sin parecer un chatbot tradicional"
         body={`El cliente (importante conglomerado cervecero de Centroamérica) solicitó adaptar la app del programa de fidelización que estábamos construyendo a un asistente virtual para funcionar en WhatsApp.
 Ambos canales funcionan juntos logrando una sinergia entre ambos y permitiendo que personas de zonas rurales o del interior del país pudieran sumarse al programa aún sin conexión a internet o con celulares viejos.
 Explícitamente nos pidió que no se debía parecer a ninguno de los que había en su país porque la experiencia era mala y los usuarios solían evitarlos, y no querían que eso afectara la experiencia y la confianza en la marca que están construyendo.`}
@@ -39,14 +42,21 @@ Explícitamente nos pidió que no se debía parecer a ninguno de los que había 
         ]}
       />
 
+      <CaseImageGrid images={[
+        '/images/case-studies/ccn-whatsapp/01-whatsapp-548.jpg',
+        '/images/case-studies/ccn-whatsapp/02-whatsapp-548.jpg',
+      ]} />
+
       <CaseSection
         label="Solución"
-        title="Falta el titulo"
+        title="Diseñar una experiencia conversacional clara, flexible y confiable"
         body={`- Diseñamos un asistente de IA que prioriza la usabilidad, flexibilidad y transparencia.
 - Creamos flujos de conversación adaptados a las funcionalidades principales del programa de fidelización.
 - Adaptamos la personalidad a la cultura y la situación, incorporando jerga nacional y emoticones.
 - Diseñamos la lógica de escalamiento para dirigir rápidamente las solicitudes sin resolver a agentes humanos.`}
       />
+
+      <CaseImageGrid images={['/images/case-studies/ccn-whatsapp/02-whastapp-1120px.jpg']} />
 
       <CaseAprendizajes text={`Diseñar para IA implica diseñar para ambigüedad. Nunca responde dos veces igual. Muchas veces ni siquiera responde lo que yo diseñé, pero aprendí que lo que sucede cuando no sabe es tan importante como cuando sabe, y eso cambió completamente nuestra forma de testearlo.
 

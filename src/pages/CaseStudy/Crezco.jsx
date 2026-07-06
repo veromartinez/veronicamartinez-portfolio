@@ -20,12 +20,12 @@ export default function Crezco() {
 
       <CaseSection
         label="Contexto"
-        title="Titulo de contexto"
+        title="Ganar visibilidad sobre las acciones comerciales"
         body={`El cliente (compañía multinacional fabricante de bebidas alcohólicas) solicitó la creación de un nuevo sistema para tener visibilidad de las acciones comerciales de sus distribuidores.
 Mediante ciclos de diseño iterativos y sesiones de descubrimiento con los equipos de negocio y cumplimiento, identificamos los puntos claves necesarios para conectar a los distribuidores con las promociones. El análisis fue complejo porque el punta a punta de cada acción pasa por distintos sistemas internos y externos con diferentes reglas de negocio y aprobaciones.`}
       />
 
-      <CaseImageGrid images={[]} />
+      <CaseImageGrid images={['/images/case-studies/crezco/01-crezco-1120px.jpg']} />
 
       <CaseMiRol
         intro="Como única diseñadora en el proyecto propuse y ejecuté:"
@@ -43,7 +43,7 @@ Mediante ciclos de diseño iterativos y sesiones de descubrimiento con los equip
 
       <CaseSection
         label="Solución"
-        title="Titulo solución"
+        title="Conectar Revenue y distribuidores en una plataforma común"
         body={`Teníamos que dar solución a las necesidades de dos tipos de usuarios:
 Usuario interno / negocio:
 - Necesitaba tener visibilidad inmediata de las acciones implementadas por los distribuidores.
@@ -56,7 +56,10 @@ La aplicación está activa desde marzo de 2025. Para marzo de 2026 se espera co
 Como parte de la actualización tecnológica, se desarrollaron, probaron e implementaron el backend y el frontend de la plataforma.`}
       />
 
-      <CaseImageGrid images={[]} />
+      <CaseImageGrid images={[
+        '/images/case-studies/crezco/02-crezco-548.jpg',
+        '/images/case-studies/crezco/03-crezco-548.jpg',
+      ]} />
 
       <CaseSection
         title="Impacto"

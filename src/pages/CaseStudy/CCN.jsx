@@ -18,11 +18,11 @@ export default function CCN() {
         industria="Fintech"
       />
 
-      <CaseImageGrid images={[]} />
+      <CaseImageGrid images={['/images/case-studies/ccn/01-ccn-1120px.jpg']} />
 
       <CaseSection
         label="Contexto"
-        title="Falta el titulo"
+        title="Crear un ecosistema financiero en un mercado cambiante"
         body={`- El cliente (importante conglomerado cervecero de Centroamérica) solicitó construir una nueva unidad de negocio: un ecosistema financiero con foco en la inclusión financiera, usabilidad y digitalización de operaciones B2C.
 - Hubo 5 equipos multidisciplinarios trabajando simultáneamente en colaboración con los consultores especialistas en remesas, banca, retail y producto del cliente.
 - Durante el proceso, la política y las legislaciones del país nos cambiaron las reglas del juego varias veces, siendo nuestra adaptación y resiliencia claves para cambiar de rumbo y seguir entregando valor al cliente.`}
@@ -45,9 +45,14 @@ export default function CCN() {
         ]}
       />
 
+      <CaseImageGrid images={[
+        '/images/case-studies/ccn/01-ccn-548.jpg',
+        '/images/case-studies/ccn/02-ccn-548.jpg',
+      ]} />
+
       <CaseSection
         label="Solución"
-        title="Falta el titulo"
+        title="Alinear equipos, experiencia y producto para adaptarse sin frenar la entrega"
         body={`A dos meses de finalizar los proyectos, distintos motivos políticos y legales obligan al cliente a cambiar de rumbo, dejando el ecosistema financiero por SaaS. Nuevamente, las habilidades de los equipos y una sólida gestión permitió adecuarnos a las nuevas exigencias y normativas completando las entregas.
 Los distintos equipos diseñaron, desarrollaron e implementaron:
 - App Billetera digital: por problemas políticos ajenos a nosotros y al cliente aún no se encuentra productiva.
@@ -58,7 +63,12 @@ Los distintos equipos diseñaron, desarrollaron e implementaron:
 La implementación está en curso actualmente.`}
       />
 
-      <CaseImageGrid images={[]} />
+      <CaseImageGrid images={[
+        '/images/case-studies/ccn/03-ccn-548.jpg',
+        '/images/case-studies/ccn/04-ccn-548.jpg',
+      ]} />
+
+      <CaseImageGrid images={['/images/case-studies/ccn/02-ccn-1120px.jpg']} />
 
       <CaseAprendizajes text={`La hermosa experiencia de haber conocido un país y una cultura distinta. Y ser el puente para que los aprendizajes de ese viaje lleguen a las casi 50 personas que trabajaron en el proyecto, para recordarles cada día a los usuarios para los que estaban trabajando.
 

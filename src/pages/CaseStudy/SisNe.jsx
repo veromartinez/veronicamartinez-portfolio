@@ -19,7 +19,7 @@ export default function SisNe() {
         industria="Consumo masivo"
       />
 
-      <CaseImageGrid images={['/images/case-studies/sisne-precepcion.jpg']} />
+      <CaseImageGrid images={['/images/case-studies/sisne/01-sisne-1120px.jpg']} />
 
       <CaseSection
         label="Contexto"
@@ -30,8 +30,8 @@ El cliente contaba con un prototipo funcional con el nuevo look&feel que realizÃ
       />
 
       <CaseImageGrid images={[
-        '/images/case-studies/sisne-1.jpg',
-        '/images/case-studies/sisne-2.jpg',
+        '/images/case-studies/sisne/02-sisne-548.jpg',
+        '/images/case-studies/sisne/01-sisne-548.jpg',
       ]} />
 
       <CaseMiRol
@@ -61,10 +61,7 @@ Para lograrlo se mantuvo el look&feel del prototipo suministrado pero se modific
 Actualmente (2025) la herramienta es usada por los empleados de Argentina y Paraguay.`}
       />
 
-      <CaseImageGrid images={[
-        '/images/case-studies/sisne-3.jpg',
-        '/images/case-studies/sisne-4.jpg',
-      ]} />
+      <CaseImageGrid images={[]} />
 
       <CaseImpacto
         metrics={[
