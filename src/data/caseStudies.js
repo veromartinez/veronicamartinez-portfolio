@@ -15,7 +15,7 @@ export const caseStudies = [
     category: 'Diseño Conversacional',
     year: '2025',
     title: 'Un chatbot que no se parezca a ninguno del mercado',
-    description: 'Modernizing private equity management for high-net-worth digital natives.',
+    description: 'Asistente IA para programa de fidelización por WhatsApp',
     image: '/images/case-studies/ccn-whatsapp.jpg',
   },
   {
@@ -23,7 +23,7 @@ export const caseStudies = [
     category: 'SAAS',
     year: '2024',
     title: 'Conectar para obtener visibilidad',
-    description: 'A cinematic digital archive for contemporary sculptural art.',
+    description: 'Sistema centralizado que conecta las acciones comerciales generadas por el cliente con sus distribuidores responsables de gestionar las ventas con clientes indirectos.',
     image: '/images/case-studies/crezco.jpg',
   },
   {
@@ -31,7 +31,7 @@ export const caseStudies = [
     category: 'Ecosistema',
     year: '2024-25',
     title: 'Barajar y dar de nuevo: cuando tus habilidades hacen la diferencia',
-    description: 'Translating complex circular economy solutions into a premium market identity.',
+    description: 'Ecosistema financiero digital: billetera electrónica, programa de fidelización, gateway de pagos, plataforma de remesas, cambio de divisas y creación de backoffice centralizado para una gestión eficiente.',
     image: '/images/case-studies/ccn.jpg',
   },
   {
@@ -39,7 +39,7 @@ export const caseStudies = [
     category: 'IA',
     year: '2026',
     title: 'Prototipos interactivos para preventas',
-    description: 'Translating complex circular economy solutions into a premium market identity.',
+    description: 'TODO: descripción del proyecto',
     image: '',
   },
 ]

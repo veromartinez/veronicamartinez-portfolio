@@ -46,6 +46,7 @@ Documentación detallada: `docs/ARCHITECTURE.md`
 | `/casos-de-estudio/ccn-whastapp` | `pages/CaseStudy/CCNWhastapp.jsx` |
 | `/casos-de-estudio/crezco` | `pages/CaseStudy/Crezco.jsx` |
 | `/casos-de-estudio/ccn` | `pages/CaseStudy/CCN.jsx` |
+| `/casos-de-estudio/prototipos-preventas` | `pages/CaseStudy/PrototiposPreventas.jsx` |
 
 Para agregar una ruta nueva: importar el componente y agregar `<Route>` en `src/App.jsx`.
 
@@ -66,7 +67,8 @@ El contenido está escrito como props dentro del JSX — no hay archivo de datos
 ### Modificar imágenes de un caso
 - Las imágenes van en `public/images/case-studies/`
 - Se referencian como `/images/case-studies/nombre.jpg` (sin `public/` en la ruta)
-- El componente `CaseImageGrid` acepta 1–4 imágenes y adapta el layout automáticamente
+- El componente `CaseImageGrid` acepta 1–5 imágenes y adapta el layout automáticamente
+- Prop `contain` en `CaseImageGrid`: muestra las imágenes a su tamaño natural sin recortar ni forzar aspect-ratio. Usar para GIFs o imágenes que no deben deformarse.
 - Dentro de cada caso hay 2 bloques de imágenes separados por el contenido de solución
 
 ### Cambiar colores o tipografía
@@ -96,6 +98,13 @@ Editar `src/i18n/es.json`. Para ver la estructura de claves disponibles ver `doc
 - Desactivado en mobile (`< 768px`) y si `prefers-reduced-motion: reduce`
 - CSS: `.hero { overflow: hidden }` y `.hero__inner { will-change: transform }`
 
+### Fade-up al cargar case studies
+- Archivo: `src/pages/CaseStudy/CaseStudy.css`
+- Cada hijo directo de `.case-study` entra con `opacity: 0 → 1` + `translateY(24px → 0)`
+- Duración: 0.5s con `cubic-bezier(0.25, 0.46, 0.45, 0.94)`, escalonado por `nth-child` (delay máximo ~0.62s)
+- Desactivado automáticamente si `prefers-reduced-motion: reduce`
+- Aplica a todos los case studies sin configuración adicional
+
 ### Hover en CardLarge y CardSmall
 - Archivos: `src/components/ui/CardLarge/CardLarge.css`, `src/components/ui/CardSmall/CardSmall.css`
 - Elevación: `translateY(-8px)` con `cubic-bezier(0.25, 0.46, 0.45, 0.94)`
@@ -109,3 +118,17 @@ Editar `src/i18n/es.json`. Para ver la estructura de claves disponibles ver `doc
 - `caseStudies.js` solo tiene los campos para las cards del listado; el contenido detallado vive en cada `.jsx`
 - `HabilidadesSection` y `ContactSection` son componentes compartidos porque aparecen en Home y Experiencia
 - Los section components de CaseStudy (`CaseHero`, `CaseSection`, etc.) son los bloques reutilizables entre casos
+- `CaseGifRow` no tiene CSS propio — el layout grid vive en `CaseStudy.css` y los estilos de texto reusan las clases de `CaseSection.css`
+
+## Componentes de CaseStudy disponibles
+
+| Componente | Props principales | Uso |
+|---|---|---|
+| `CaseHero` | `category`, `year`, `title`, `subtitulo`, `role`, `anio`, `industria` | Encabezado de cada caso |
+| `CaseSection` | `label`, `title`, `body` | Bloque de texto (contexto, solución, etc.) |
+| `CaseMiRol` | `intro`, `bullets[]`, `splitAt` | Sección "Mi rol" con lista |
+| `CaseImageGrid` | `images[]`, `contain` | Grilla de imágenes (1–5). `contain` para GIFs |
+| `CaseGifRow` | `title`, `body`, `image` | Fila con GIF a la derecha y texto a la izquierda |
+| `CaseImpacto` | `metrics[]`, `quotes[]` | Métricas y quotes de impacto |
+| `CaseAprendizajes` | `text` | Bloque de aprendizajes |
+| `CaseNav` | `prev`, `next` | Navegación anterior/siguiente |
