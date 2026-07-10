@@ -5,7 +5,7 @@ export const experiencia = [
       'Lideré la investigación de usuario que identificó brechas de servicio claves en una plataforma interna utilizada por la fuerza de venta, lo que llevó a un rediseño del flujo principal mejorando la adopción, la eficacia y reduciendo tiempos.',
       'Rediseñé softwares de uso interno para una empresa internacional de bebidas alcohólicas, agilizando la gestión interna, reduciendo brechas económicas, tiempos y logrando la adopción plena de los usuarios.',
       'Trabajé junto al equipo en un agente conversacional para WhatsApp. Analicé y transformé todos los flujos de una app mobile que ya estaba desarrollada, a este nuevo medio. Estableciendo voz, tono, identidad del asistente virtual, guardrails, conversaciones, testeo y escalamiento humano.',
-      'Participé del equipo que lideré y coordiné a 5 equipos de desarrollo simultáneos, para mantener la consistencia de la marca y la eficiencia del ecosistema.',
+      'Participé del liderazgo y coordinación de los 5 equipos de desarrollo simultáneos de una cuenta, para mantener la consistencia de marca y la eficacia del ecosistema.',
     ],
   },
   {
