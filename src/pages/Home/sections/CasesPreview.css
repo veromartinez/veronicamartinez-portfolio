@@ -65,6 +65,12 @@
   padding-top: 96px;
 }
 
+.cases-preview__cell--r3-large {
+  grid-column: 1 / span 7;
+  grid-row: 3;
+  padding-top: var(--space-lg);
+}
+
 @media (max-width: 1024px) {
   .cases-preview__grid {
     grid-template-columns: 1fr 1fr;
@@ -73,7 +79,8 @@
   .cases-preview__cell--r1-large,
   .cases-preview__cell--r1-small,
   .cases-preview__cell--r2-small,
-  .cases-preview__cell--r2-large {
+  .cases-preview__cell--r2-large,
+  .cases-preview__cell--r3-large {
     grid-column: auto;
     grid-row: auto;
     padding-top: 0;

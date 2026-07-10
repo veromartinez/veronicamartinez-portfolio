@@ -30,6 +30,11 @@ export default function CasesPreview() {
           <div className="cases-preview__cell--r2-large">
             <CardLarge {...caseStudies[3]} />
           </div>
+          {caseStudies[4] && (
+            <div className="cases-preview__cell--r3-large">
+              <CardLarge {...caseStudies[4]} />
+            </div>
+          )}
         </div>
       </div>
     </section>

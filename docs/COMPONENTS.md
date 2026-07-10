@@ -147,6 +147,26 @@ Las imágenes van en `public/images/case-studies/` y se referencian sin `public/
 
 ---
 
+### CaseGifRow
+```jsx
+<CaseGifRow
+  title="HTML para envío por email"
+  body="Descripción del resultado o aprendizaje de este bloque."
+  tool="Herramienta: Figma + Cursor"
+  image="/images/case-studies/ia/email.gif"
+/>
+```
+| Prop | Tipo | Default | Descripción |
+|------|------|---------|-------------|
+| `title` | string | — | Título del bloque |
+| `body` | string | — | Texto descriptivo |
+| `tool` | string | opcional | Si se pasa, se muestra como label (clase `.case-section__label`) debajo del texto |
+| `image` | string | — | Ruta del GIF, se muestra a la derecha |
+
+No tiene CSS propio: reusa `.case-section` de `CaseSection.css` y el layout de fila de `CaseStudy.css`.
+
+---
+
 ### CaseImpacto
 ```jsx
 <CaseImpacto

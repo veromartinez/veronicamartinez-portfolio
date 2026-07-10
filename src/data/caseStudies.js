@@ -39,7 +39,7 @@ export const caseStudies = [
     category: 'IA',
     year: '2026',
     title: 'Prototipos interactivos para preventas',
-    description: 'TODO: descripción del proyecto',
-    image: '',
+    description: 'Prototipos interactivos con IA para validaciones más rápidas',
+    image: '/images/case-studies/ia.jpg',
   },
 ]

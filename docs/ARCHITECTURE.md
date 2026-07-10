@@ -48,7 +48,7 @@ vero/
 │   │   │   ├── Home.jsx                     ← ensambla las 5 secciones
 │   │   │   └── sections/
 │   │   │       ├── HeroSection.jsx + .css
-│   │   │       ├── CasesPreview.jsx + .css  ← grid staggered 2×2 con data/caseStudies.js
+│   │   │       ├── CasesPreview.jsx + .css  ← grid staggered 2×2 + 5ta card (CardLarge, mismo ancho que en CasosDeEstudio) con data/caseStudies.js
 │   │   │       └── SobreMiSection.jsx + .css
 │   │   │
 │   │   ├── Experiencia/
@@ -64,12 +64,14 @@ vero/
 │   │       ├── CCNWhastapp.jsx              ← estructura lista, contenido pendiente
 │   │       ├── Crezco.jsx                   ← contenido completo, imágenes pendientes
 │   │       ├── CCN.jsx                      ← contenido completo, títulos e imágenes pendientes
+│   │       ├── PrototiposPreventas.jsx      ← caso completo (IA), 5 bloques CaseGifRow
 │   │       ├── CaseStudy.css                ← estilo del wrapper .case-study
 │   │       └── sections/                   ← bloques reutilizados por todos los casos
 │   │           ├── CaseHero.jsx + .css      ← props: title, subtitulo, role, anio, industria
 │   │           ├── CaseSection.jsx + .css   ← props: label, title, body (\n separa líneas, "- " = bullet)
 │   │           ├── CaseMiRol.jsx + .css     ← props: intro, bullets (array), splitAt (opcional)
 │   │           ├── CaseImageGrid.jsx + .css ← props: images (array de rutas, 1–4 items)
+│   │           ├── CaseGifRow.jsx           ← props: title, body, tool (opcional), image — usa CaseStudy.css + CaseSection.css
 │   │           ├── CaseImpacto.jsx + .css   ← props: metrics [{label, value}], quotes [strings]
 │   │           ├── CaseAprendizajes.jsx + .css ← props: text (string, \n\n = nuevo párrafo)
 │   │           └── CaseNav.jsx + .css       ← props: prev {slug, title} | null, next {slug, title} | null
@@ -272,6 +274,12 @@ Las cards se usan en Home (`CardLarge`) y en Casos de Estudio (`CardSmall`).
 | `ccn-whastapp-hero.jpg` | ⚠️ pendiente | Card CCNWhastapp |
 | `ccn-hero.jpg` | ⚠️ pendiente | Card CCN |
 | `sisne-1.jpg` … `sisne-4.jpg` | ⚠️ pendiente | CaseImageGrid (2 imgs c/bloque) en SisNe — 548 × 411 px c/u |
+| `ia.jpg` | ✅ presente | Card de PrototiposPreventas (Home y CasosDeEstudio) |
+| `ia/email.gif` | ✅ presente | CaseGifRow "HTML para envío por email" |
+| `ia/michaels.gif` | ✅ presente | CaseGifRow "Nueva funcionalidad e-commerce" |
+| `ia/nexo.gif` | ✅ presente | CaseGifRow "Sistema interno con asistente virtual" |
+| `ia/rialex.gif` | ✅ presente | CaseGifRow "Nueva funcionalidad fintech" |
+| `ia/blog.gif` | ✅ presente | CaseGifRow "Del Canvas al código" |
 
 ---
 
@@ -283,4 +291,16 @@ Las cards se usan en Home (`CardLarge`) y en Casos de Estudio (`CardSmall`).
 | `Crezco.jsx` | ✅ contenido completo | Títulos de Contexto/Solución · Imágenes |
 | `CCN.jsx` | ✅ contenido completo | Títulos de Contexto/Solución · Imágenes |
 | `CCNWhastapp.jsx` | ✅ contenido completo | Títulos de Contexto/Solución |
-| `PrototiposPreventas.jsx` | ⚠️ sin crear | Todo el contenido |
+| `PrototiposPreventas.jsx` | ✅ completo | — |
+
+---
+
+## Cambios recientes (sesión julio 2026)
+
+| Archivo | Cambio |
+|---------|--------|
+| `caseStudies.js` | Caso `prototipos-preventas` (IA): completados `description` e `image` (`/images/case-studies/ia.jpg`) |
+| `PrototiposPreventas.jsx` | Completado todo el contenido (subtítulo, industria, y los 5 bloques `CaseGifRow` con título/body/tool) |
+| `CaseGifRow.jsx` | Nueva prop opcional `tool` — muestra la herramienta usada (ej. "Figma + Cursor") con la clase `.case-section__label` |
+| `CaseStudy.css` | Reducido el espaciado del wrapper `.case-study`: `gap` 36px → 20px, `padding-top` 36px → 16px |
+| `CasesPreview.jsx` / `.css` (Home) | Agregada una 5ta card (`caseStudies[4]`, el caso IA) en una fila nueva (`grid-row: 3`). Usa `CardLarge` con el mismo ancho que las demás large cards (`grid-column: 1 / span 7` sobre 12 columnas) para que coincida visualmente con el tamaño que tiene en `/casos-de-estudio` |
