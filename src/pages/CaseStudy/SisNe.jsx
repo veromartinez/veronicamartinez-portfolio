@@ -52,7 +52,7 @@ El cliente contaba con un prototipo funcional con el nuevo look&feel que realiz�
       <CaseSection
         label="Solución"
         title="Mismo look & feel, arquitectura completamente nueva"
-        body={`Las entrevistas demostraron que el prototipo que tenía el cliente era funcionalmente igual al sistema que estamos reemplazando. Los usuarios reconocían las mejoras visuales pero los grandes problemas de fondo seguían estando.
+        body={`Las entrevistas demostraron que el prototipo que tenía el cliente era funcionalmente igual al sistema que estábamos reemplazando. Los usuarios reconocían las mejoras visuales pero los grandes problemas de fondo seguían estando.
 
 El nuevo sistema necesitaba reducir el tiempo que tardaba la fuerza de venta en completar la información en el sistema (aproximadamente 45min por cliente), garantizar que los usuarios no dependieran de un usuario experimentado para aprender a usar la herramienta, y simplificar y alinear los requisitos del negocio.
 
@@ -72,7 +72,7 @@ Actualmente (2025) la herramienta es usada por los empleados de Argentina y Para
           { label: 'NPS', value: '97%' },
         ]}
         quotes={[
-          '"Destacó la velocidad para cargar los datos"',
+          '"Destaco la velocidad para cargar los datos"',
           '"Muy rápido y fácil, es un paso hacia adelante"',
         ]}
       />
