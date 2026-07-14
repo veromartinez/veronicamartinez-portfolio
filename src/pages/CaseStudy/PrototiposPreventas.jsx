@@ -11,7 +11,7 @@ export default function PrototiposPreventas() {
         category="IA"
         year="2026"
         title="Prototipos interactivos para preventas"
-        subtitulo="Prototipos interactivos con IA para validaciones más rápidas"
+        subtitulo="Prototipos interactivos con IA para validaciones más rápidas."
         role="UX/UI Designer"
         anio="2026"
         industria="Todas"
@@ -46,8 +46,8 @@ export default function PrototiposPreventas() {
       />
 
       <CaseGifRow
-        title="Del Canvas al código"
-        body="Ejercicio de prueba y práctica. A partir de diseños que tenía en Figma de un blog lo pasé a código, respetando el diseño original, agregando animaciones, interacciones y creando un GEM de Gemini que creara las imágenes a partir de un texto. Resultado: una web estática funcional."
+        title="Del canva al código"
+        body="Ejercicio de prueba y práctica. A partir del diseño en Figma, hice la conversión a código, respetando el diseño original, agregando animaciones, interacciones y creando un GEM de Gemini que creara las imágenes a partir de un texto. Resultado: una web estática funcional."
         tool="Herramienta: Figma + Cursor"
         image="/images/case-studies/ia/blog.gif"
       />

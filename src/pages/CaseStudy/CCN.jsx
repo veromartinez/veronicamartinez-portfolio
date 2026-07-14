@@ -74,7 +74,9 @@ La implementación está en curso actualmente.`}
 
 El desafío de un nuevo rol, agradeciendo la oportunidad de crecimiento que Mobile Computing me brindó y la confianza que depositó en mí para ser embajadora de su cultura en un equipo nuevo tan numeroso.
 
-Cerré el año con el premio "Problem Solver" de la cuenta en reconocimiento a mi innovación y soluciones proactivas.`} />
+Cerré el año con el premio "Problem Solver of the Year 2025", elegida a nivel global representando a Argentina gracias al voto de mis compañeros y la confirmación de mis líderes.
+
+Esta categoría reconoce a aquella persona que sobresale al identificar desafíos y transformarlos en oportunidades que resultan en el éxito del negocio. Y que encuentra de manera constante las mejores soluciones para la organización, el equipo y la empresa, diseñando rápidamente enfoques efectivos y navegando situaciones complejas con total soltura.`} />
 
       <CaseNav
         prev={{ slug: 'crezco', title: 'Crezco' }}

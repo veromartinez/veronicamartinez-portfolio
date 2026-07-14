@@ -14,8 +14,8 @@ export const caseStudies = [
     slug: 'ccn-whastapp',
     category: 'Diseño Conversacional',
     year: '2025',
-    title: 'Un chatbot que no se parezca a ninguno del mercado',
-    description: 'Asistente IA para programa de fidelización por WhatsApp',
+    title: 'Un "chatbot" que no se parezca a ninguno del mercado',
+    description: 'Asistente IA para programa de fidelización por WhatsApp.',
     image: '/images/case-studies/ccn-whatsapp.jpg',
   },
   {
@@ -39,7 +39,7 @@ export const caseStudies = [
     category: 'IA',
     year: '2026',
     title: 'Prototipos interactivos para preventas',
-    description: 'Prototipos interactivos con IA para validaciones más rápidas',
+    description: 'Prototipos interactivos con IA para validaciones más rápidas.',
     image: '/images/case-studies/ia.jpg',
   },
 ]

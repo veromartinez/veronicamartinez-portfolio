@@ -11,8 +11,8 @@ export default function CCNWhastapp() {
     <div className="case-study">
 
       <CaseHero
-        title="Un chatbot que no se parezca a ninguno del mercado"
-        subtitulo="Asistente IA para programa de fidelización por WhatsApp"
+        title={'Un "chatbot" que no se parezca a ninguno del mercado'}
+        subtitulo="Asistente IA para programa de fidelización por WhatsApp."
         role="UX/UI Designer"
         anio="2025-2026"
         industria="Retail"
@@ -58,9 +58,9 @@ Explícitamente nos pidió que no se debía parecer a ninguno de los que había 
 
       <CaseImageGrid images={['/images/case-studies/ccn-whatsapp/02-whastapp-1120px.jpg']} />
 
-      <CaseAprendizajes text={`Diseñar para IA implica diseñar para ambigüedad. Nunca responde dos veces igual. Muchas veces ni siquiera responde lo que yo diseñé, pero aprendí que lo que sucede cuando no sabe es tan importante como cuando sabe, y eso cambió completamente nuestra forma de testearlo.
+      <CaseAprendizajes text={`Diseñar para la IA implica diseñar para la ambigüedad. Nunca responde dos veces igual. Muchas veces ni siquiera responde lo que yo diseñé, pero aprendí que lo que responde cuando no sabe es tan importante como todo el RAG que creamos para el, y eso cambió completamente nuestra forma de testearlo.
 
-Que unir a Meta y a Salesforce fue un gran dolor de cabeza. Finalmente el asistente virtual se desarrolló con Agentforce de Salesforce, una herramienta poderosa pero en desarrollo que no soporta templates nativos de Meta. Lidiar con las dificultades técnicas y los soportes de ambas plataformas fue parte del aprendizaje.`} />
+Unir a Meta y a Salesforce fue un gran dolor de cabeza. Finalmente el asistente virtual se desarrolló con Agentforce de Salesforce, una herramienta poderosa pero en desarrollo que no soporta templates nativos de Meta. Lidiar con las dificultades técnicas y los soportes de ambas plataformas fue parte del aprendizaje.`} />
 
       <CaseNav
         prev={{ slug: 'sisne', title: 'SisNe' }}
