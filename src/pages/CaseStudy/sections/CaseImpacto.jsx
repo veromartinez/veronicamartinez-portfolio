@@ -1,7 +1,7 @@
 import { useTranslation } from '../../../i18n/LanguageContext'
 import './CaseImpacto.css'
 
-export default function CaseImpacto({ metrics, quotes }) {
+export default function CaseImpacto({ intro, metrics, quotes }) {
   const { t } = useTranslation()
   const hasContent = metrics?.length || quotes?.length
   if (!hasContent) return null
@@ -12,14 +12,17 @@ export default function CaseImpacto({ metrics, quotes }) {
         <div className="case-impacto__inner">
           <h2 className="case-impacto__title">{t('caseStudy.impactoTitle')}</h2>
 
+          {intro && <p className="case-impacto__intro">{intro}</p>}
+
           {metrics?.length > 0 && (
-            <ul className="case-impacto__metrics">
+            <div className="case-impacto__metrics">
               {metrics.map((m, i) => (
-                <li key={i} className="case-impacto__metric">
-                  <strong>{m.value}:</strong> {m.label}
-                </li>
+                <div key={i} className="case-impacto__metric">
+                  <span className="case-impacto__metric-value">{m.value}</span>
+                  <span className="case-impacto__metric-label">{m.label}</span>
+                </div>
               ))}
-            </ul>
+            </div>
           )}
 
           {quotes?.length > 0 && (

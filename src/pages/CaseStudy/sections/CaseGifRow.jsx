@@ -1,7 +1,7 @@
 import '../CaseStudy.css'
 import './CaseSection.css'
 
-export default function CaseGifRow({ label, title, body, tool, image }) {
+export default function CaseGifRow({ label, title, body, tool, image, alt = '' }) {
   return (
     <div className="case-section">
       <div className="container">
@@ -18,7 +18,7 @@ export default function CaseGifRow({ label, title, body, tool, image }) {
             )}
             {tool && <span className="case-section__label">{tool}</span>}
           </div>
-          <img src={image} alt="" className="case-gif-row__img" />
+          <img src={image} alt={alt} className="case-gif-row__img" />
         </div>
       </div>
     </div>

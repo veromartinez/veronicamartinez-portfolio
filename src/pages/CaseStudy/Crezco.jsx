@@ -25,7 +25,10 @@ export default function Crezco() {
 Mediante ciclos de diseño iterativos y sesiones de descubrimiento con los equipos de negocio y cumplimiento, identificamos los puntos claves necesarios para conectar a los distribuidores con las promociones. El análisis fue complejo porque el punta a punta de cada acción pasa por distintos sistemas internos y externos con diferentes reglas de negocio y aprobaciones.`}
       />
 
-      <CaseImageGrid images={['/images/case-studies/crezco/01-crezco-1120px.jpg']} />
+      <CaseImageGrid
+        images={['/images/case-studies/crezco/01-crezco-1120px.jpg']}
+        alts={['Vista general de la plataforma Crezco']}
+      />
 
       <CaseMiRol
         intro="Como única diseñadora en el proyecto propuse y ejecuté:"
@@ -56,10 +59,16 @@ La aplicación está activa desde marzo de 2025. Para marzo de 2026 se espera co
 Como parte de la actualización tecnológica, se desarrollaron, probaron e implementaron el backend y el frontend de la plataforma.`}
       />
 
-      <CaseImageGrid images={[
-        '/images/case-studies/crezco/02-crezco-548.jpg',
-        '/images/case-studies/crezco/03-crezco-548.jpg',
-      ]} />
+      <CaseImageGrid
+        images={[
+          '/images/case-studies/crezco/02-crezco-548.jpg',
+          '/images/case-studies/crezco/03-crezco-548.jpg',
+        ]}
+        alts={[
+          'Panel de visibilidad de acciones comerciales en Crezco',
+          'Flujo de trabajo colaborativo entre empresa y distribuidores',
+        ]}
+      />
 
       <CaseSection
         title="Impacto"

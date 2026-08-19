@@ -51,7 +51,7 @@
   font-weight: var(--weight-extrabold);
   letter-spacing: 4.8px;
   text-transform: uppercase;
-  color: var(--color-primary);
+  color: var(--color-gray-900);
   line-height: 18px;
   white-space: nowrap;
 }

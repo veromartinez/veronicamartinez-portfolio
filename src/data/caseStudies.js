@@ -4,7 +4,7 @@
 export const caseStudies = [
   {
     slug: 'sisne',
-    category: 'SAAS',
+    category: 'B2E',
     year: '2022-23',
     title: 'Más que un rediseño, volver a pensar procesos',
     description: 'Rediseño de una aplicación web para optimizar las negociaciones comerciales de una multinacional.',
@@ -13,15 +13,15 @@ export const caseStudies = [
   {
     slug: 'ccn-whastapp',
     category: 'Diseño Conversacional',
-    year: '2025',
+    year: '2025-2026',
     title: 'Un "chatbot" que no se parezca a ninguno del mercado',
     description: 'Asistente IA para programa de fidelización por WhatsApp.',
     image: '/images/case-studies/ccn-whatsapp.jpg',
   },
   {
     slug: 'crezco',
-    category: 'SAAS',
-    year: '2024',
+    category: 'B2E',
+    year: '2024-2025',
     title: 'Conectar para obtener visibilidad',
     description: 'Sistema centralizado que conecta las acciones comerciales generadas por el cliente con sus distribuidores responsables de gestionar las ventas con clientes indirectos.',
     image: '/images/case-studies/crezco.jpg',
@@ -29,7 +29,7 @@ export const caseStudies = [
   {
     slug: 'ccn',
     category: 'Ecosistema',
-    year: '2024-25',
+    year: '2024-2025',
     title: 'Barajar y dar de nuevo: cuando tus habilidades hacen la diferencia',
     description: 'Ecosistema financiero digital: billetera electrónica, programa de fidelización, gateway de pagos, plataforma de remesas, cambio de divisas y creación de backoffice centralizado para una gestión eficiente.',
     image: '/images/case-studies/ccn.jpg',

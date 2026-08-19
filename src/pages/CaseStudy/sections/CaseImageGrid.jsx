@@ -1,6 +1,6 @@
 import './CaseImageGrid.css'
 
-export default function CaseImageGrid({ images, contain = false }) {
+export default function CaseImageGrid({ images, alts = [], contain = false }) {
   if (!images?.length) return null
 
   return (
@@ -10,7 +10,7 @@ export default function CaseImageGrid({ images, contain = false }) {
           {images.map((src, i) => (
             <div key={i} className={`case-image-grid__item${contain ? ' case-image-grid__item--contain' : ''}`}>
               {src ? (
-                <img src={src} alt="" className={`case-image-grid__img${contain ? ' case-image-grid__img--contain' : ''}`} />
+                <img src={src} alt={alts[i] || ''} className={`case-image-grid__img${contain ? ' case-image-grid__img--contain' : ''}`} />
               ) : (
                 <div className="case-image-grid__placeholder" />
               )}

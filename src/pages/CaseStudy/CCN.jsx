@@ -18,7 +18,10 @@ export default function CCN() {
         industria="Fintech"
       />
 
-      <CaseImageGrid images={['/images/case-studies/ccn/01-ccn-1120px.jpg']} />
+      <CaseImageGrid
+        images={['/images/case-studies/ccn/01-ccn-1120px.jpg']}
+        alts={['Vista general del ecosistema financiero digital CCN']}
+      />
 
       <CaseSection
         label="Contexto"
@@ -26,6 +29,17 @@ export default function CCN() {
         body={`- El cliente (importante conglomerado cervecero de Centroamérica) solicitó construir una nueva unidad de negocio: un ecosistema financiero con foco en la inclusión financiera, usabilidad y digitalización de operaciones B2C.
 - Hubo 5 equipos multidisciplinarios trabajando simultáneamente en colaboración con los consultores especialistas en remesas, banca, retail y producto del cliente.
 - Durante el proceso, la política y las legislaciones del país nos cambiaron las reglas del juego varias veces, siendo nuestra adaptación y resiliencia claves para cambiar de rumbo y seguir entregando valor al cliente.`}
+      />
+
+      <CaseImageGrid
+        images={[
+          '/images/case-studies/ccn/01-ccn-548.jpg',
+          '/images/case-studies/ccn/02-ccn-548.jpg',
+        ]}
+        alts={[
+          'Billetera electrónica del ecosistema financiero CCN',
+          'Programa de fidelización del ecosistema financiero CCN',
+        ]}
       />
 
       <CaseMiRol
@@ -45,38 +59,45 @@ export default function CCN() {
         ]}
       />
 
-      <CaseImageGrid images={[
-        '/images/case-studies/ccn/01-ccn-548.jpg',
-        '/images/case-studies/ccn/02-ccn-548.jpg',
-      ]} />
-
       <CaseSection
         label="Solución"
         title="Alinear equipos, experiencia y producto para adaptarse sin frenar la entrega"
         body={`A dos meses de finalizar los proyectos, distintos motivos políticos y legales obligan al cliente a cambiar de rumbo, dejando el ecosistema financiero por SaaS. Nuevamente, las habilidades de los equipos y una sólida gestión permitió adecuarnos a las nuevas exigencias y normativas completando las entregas.
 Los distintos equipos diseñaron, desarrollaron e implementaron:
 - App Billetera digital: por problemas políticos ajenos a nosotros y al cliente aún no se encuentra productiva.
-- Programa de fidelización: app + AI Assistance en WhatsApp.
+- Programa de fidelización: app + AI Assistant en WhatsApp.
 - Gateway de pagos de servicios.
 - Plataforma de remesas y cambio de divisas.
-- Backoffice centralizado.
-La implementación está en curso actualmente.`}
+- Backoffice centralizado.`}
       />
 
-      <CaseImageGrid images={[
-        '/images/case-studies/ccn/03-ccn-548.jpg',
-        '/images/case-studies/ccn/04-ccn-548.jpg',
-      ]} />
+      <CaseImageGrid
+        images={[
+          '/images/case-studies/ccn/03-ccn-548.jpg',
+          '/images/case-studies/ccn/04-ccn-548.jpg',
+        ]}
+        alts={[
+          'Gateway de pagos del ecosistema financiero CCN',
+          'Backoffice centralizado del ecosistema financiero CCN',
+        ]}
+      />
 
-      <CaseImageGrid images={['/images/case-studies/ccn/02-ccn-1120px.jpg']} />
+      <CaseImageGrid
+        images={['/images/case-studies/ccn/02-ccn-1120px.jpg']}
+        alts={['Plataforma de remesas y cambio de divisas del ecosistema CCN']}
+      />
 
       <CaseAprendizajes text={`La hermosa experiencia de haber conocido un país y una cultura distinta. Y ser el puente para que los aprendizajes de ese viaje lleguen a las casi 50 personas que trabajaron en el proyecto, para recordarles cada día a los usuarios para los que estaban trabajando.
 
 El desafío de un nuevo rol, agradeciendo la oportunidad de crecimiento que Mobile Computing me brindó y la confianza que depositó en mí para ser embajadora de su cultura en un equipo nuevo tan numeroso.
 
-Cerré el año con el premio "Problem Solver of the Year 2025", elegida a nivel global representando a Argentina gracias al voto de mis compañeros y la confirmación de mis líderes.
+**Premio "Problem Solver of the Year 2025"**
 
-Esta categoría reconoce a aquella persona que sobresale al identificar desafíos y transformarlos en oportunidades que resultan en el éxito del negocio. Y que encuentra de manera constante las mejores soluciones para la organización, el equipo y la empresa, diseñando rápidamente enfoques efectivos y navegando situaciones complejas con total soltura.`} />
+Fui elegida a nivel global representando a Argentina gracias al voto de mis compañeros y la confirmación de mis líderes.
+
+Esta categoría reconoce a la persona que sobresale al identificar desafíos y transformarlos en oportunidades que resultan en el éxito del negocio. Y que encuentra de manera constante las mejores soluciones para la organización, el equipo y la empresa, diseñando rápidamente enfoques efectivos y navegando situaciones complejas con total soltura.
+
+Fue una gran alegría terminar el proyecto con este premio.`} />
 
       <CaseNav
         prev={{ slug: 'crezco', title: 'Crezco' }}

@@ -19,20 +19,29 @@ export default function SisNe() {
         industria="Consumo masivo"
       />
 
-      <CaseImageGrid images={['/images/case-studies/sisne/01-sisne-1120px.jpg']} />
+      <CaseImageGrid
+        images={['/images/case-studies/sisne/01-sisne-1120px.jpg']}
+        alts={['Vista general de la aplicación web rediseñada de SisNe']}
+      />
 
       <CaseSection
         label="Contexto"
         title="Un look actualizado, pero los mismos problemas de fondo"
-        body={`El cliente (compañía multinacional fabricante de bebidas alcohólicas) solicitó un update tecnológico y funcional de su aplicación web interna que centraliza las negociaciones comerciales con los clientes. El rediseño apuntó a modernizar la interfaz, mejorar la usabilidad y optimizar los flujos de interacción. Como parte del upgrade tecnológico, se lleva a cabo la construcción, pruebas e implementación del backend y frontend de la Rediplatforma.
+        body={`El cliente (compañía multinacional fabricante de bebidas alcohólicas) solicitó un update tecnológico y funcional de su aplicación web interna que centraliza las negociaciones comerciales con los clientes. El rediseño apuntó a modernizar la interfaz, mejorar la usabilidad y optimizar los flujos de interacción. Como parte del upgrade tecnológico, se lleva a cabo la construcción, pruebas e implementación del backend y frontend de la plataforma.
 
-El cliente contaba con un prototipo funcional con el nuevo look&feel que realizó con otro proveedor.`}
+El cliente contaba con un prototipo funcional con el nuevo look & feel que realizó con otro proveedor.`}
       />
 
-      <CaseImageGrid images={[
-        '/images/case-studies/sisne/02-sisne-548.jpg',
-        '/images/case-studies/sisne/01-sisne-548.jpg',
-      ]} />
+      <CaseImageGrid
+        images={[
+          '/images/case-studies/sisne/02-sisne-548.jpg',
+          '/images/case-studies/sisne/01-sisne-548.jpg',
+        ]}
+        alts={[
+          'Flujo de carga de información de cliente en SisNe',
+          'Pantalla de negociación comercial en SisNe',
+        ]}
+      />
 
       <CaseMiRol
         intro="Como única diseñadora en el proyecto propuse y ejecuté:"
@@ -56,7 +65,7 @@ El cliente contaba con un prototipo funcional con el nuevo look&feel que realiz�
 
 El nuevo sistema necesitaba reducir el tiempo que tardaba la fuerza de venta en completar la información en el sistema (aproximadamente 45min por cliente), garantizar que los usuarios no dependieran de un usuario experimentado para aprender a usar la herramienta, y simplificar y alinear los requisitos del negocio.
 
-Para lograrlo se mantuvo el look&feel del prototipo suministrado pero se modificó la arquitectura de la información, la terminología empleada, se sumaron ayudas contextuales para nuevos usuarios y se rehícieron todos los flujos reflejando los nuevos procesos internos.
+Para lograrlo se mantuvo el look & feel del prototipo suministrado pero se modificó la arquitectura de la información, la terminología empleada, se sumaron ayudas contextuales para nuevos usuarios y se rehicieron todos los flujos reflejando los nuevos procesos internos.
 
 Actualmente (2025) la herramienta es usada por los empleados de Argentina y Paraguay.`}
       />
@@ -64,12 +73,13 @@ Actualmente (2025) la herramienta es usada por los empleados de Argentina y Para
       <CaseImageGrid images={[]} />
 
       <CaseImpacto
+        intro="Como resultado del rediseño, las pruebas mostraron:"
         metrics={[
-          { label: 'El tiempo de carga de información de un cliente se redujo de 45 min a (máximo) 5 min.', value: '-5min' },
-          { label: 'De los usuarios completó la carga de la información con éxito.', value: '83.56%' },
-          { label: 'De los usuarios completó la carga de la información sin esfuerzo.', value: '87.4%' },
+          { label: 'El tiempo de carga de la información de un cliente se redujo de 45 min a (máximo) 5 min.', value: '45→5 min' },
+          { label: 'De los usuarios completó la carga de la información con éxito.', value: '83,66%' },
+          { label: 'De los usuarios completó la carga de la información sin esfuerzo.', value: '87,4%' },
           { label: 'De los usuarios comprendió las funcionalidades de la aplicación sin requerir asistencia.', value: '100%' },
-          { label: 'NPS', value: '97%' },
+          { label: 'NPS', value: '81' },
         ]}
         quotes={[
           '"Destaco la velocidad para cargar los datos"',

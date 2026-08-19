@@ -11,7 +11,13 @@ export default function CaseAprendizajes({ text }) {
         <div className="case-aprendizajes__inner">
           <h2 className="case-aprendizajes__title">{t('caseStudy.aprendizajesTitle')}</h2>
           {text.split('\n\n').map((paragraph, i) => (
-            <p key={i} className="case-aprendizajes__body">{paragraph}</p>
+            <p key={i} className="case-aprendizajes__body">
+              {paragraph.split(/(\*\*.+?\*\*)/g).map((chunk, j) =>
+                chunk.startsWith('**') && chunk.endsWith('**')
+                  ? <strong key={j}>{chunk.slice(2, -2)}</strong>
+                  : chunk
+              )}
+            </p>
           ))}
         </div>
       </div>

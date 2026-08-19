@@ -1,8 +1,13 @@
 .case-aprendizajes {
+  margin-top: var(--space-md);
   padding-bottom: var(--space-xl);
 }
 
 .case-aprendizajes__inner {
+  background: var(--color-gray-100);
+  border-left: 4px solid var(--color-primary);
+  border-radius: 4px;
+  padding: var(--space-lg);
 }
 
 .case-aprendizajes__title {
@@ -11,14 +16,17 @@
   font-weight: var(--weight-medium);
   line-height: normal;
   color: var(--color-gray-900);
-  margin-bottom: 20px;
+  margin-bottom: var(--space-sm);
 }
 
 .case-aprendizajes__body {
   font-family: var(--font-body);
   font-size: var(--text-base);
-  font-weight: var(--weight-medium);
+  font-weight: var(--weight-regular);
   line-height: var(--lh-base);
   color: var(--color-gray-900);
-  margin-bottom: var(--space-sm);
+}
+
+.case-aprendizajes__body + .case-aprendizajes__body {
+  margin-top: var(--space-sm);
 }
