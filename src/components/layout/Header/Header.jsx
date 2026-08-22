@@ -1,28 +1,12 @@
 import { useState } from 'react'
-import { NavLink, useNavigate, useLocation } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { useTranslation } from '../../../i18n/LanguageContext'
 import './Header.css'
 
 export default function Header() {
   const { t } = useTranslation()
   const [isOpen, setIsOpen] = useState(false)
-  const navigate = useNavigate()
-  const location = useLocation()
   const close = () => setIsOpen(false)
-
-  const handleSobreMi = (e) => {
-    e.preventDefault()
-    close()
-    const scrollToSection = () => {
-      document.getElementById('sobre-mi')?.scrollIntoView({ behavior: 'smooth' })
-    }
-    if (location.pathname === '/') {
-      scrollToSection()
-    } else {
-      navigate('/')
-      setTimeout(scrollToSection, 80)
-    }
-  }
 
   return (
     <header className="header">
@@ -41,9 +25,6 @@ export default function Header() {
           <NavLink to="/experiencia" className={({ isActive }) => isActive ? 'header__link header__link--active' : 'header__link'}>
             {t('nav.experience')}
           </NavLink>
-          <a href="/#sobre-mi" className="header__link" onClick={handleSobreMi}>
-            {t('nav.about')}
-          </a>
         </nav>
 
         <button className="header__burger" onClick={() => setIsOpen(!isOpen)} aria-label="Menú" aria-expanded={isOpen}>
@@ -70,9 +51,6 @@ export default function Header() {
           <NavLink to="/experiencia" className={({ isActive }) => isActive ? 'header__mobile-link header__mobile-link--active' : 'header__mobile-link'} onClick={close}>
             {t('nav.experience')}
           </NavLink>
-          <a href="/#sobre-mi" className="header__mobile-link" onClick={handleSobreMi}>
-            {t('nav.about')}
-          </a>
         </nav>
       )}
     </header>

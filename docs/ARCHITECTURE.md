@@ -304,3 +304,13 @@ Las cards se usan en Home (`CardLarge`) y en Casos de Estudio (`CardSmall`).
 | `CaseGifRow.jsx` | Nueva prop opcional `tool` — muestra la herramienta usada (ej. "Figma + Cursor") con la clase `.case-section__label` |
 | `CaseStudy.css` | Reducido el espaciado del wrapper `.case-study`: `gap` 36px → 20px, `padding-top` 36px → 16px |
 | `CasesPreview.jsx` / `.css` (Home) | Agregada una 5ta card (`caseStudies[4]`, el caso IA) en una fila nueva (`grid-row: 3`). Usa `CardLarge` con el mismo ancho que las demás large cards (`grid-column: 1 / span 7` sobre 12 columnas) para que coincida visualmente con el tamaño que tiene en `/casos-de-estudio` |
+
+---
+
+## Cambios recientes (sesión agosto 2026)
+
+| Archivo | Cambio |
+|---------|--------|
+| `SobreMiSection.jsx` | Contenido reescrito: se agregó un párrafo destacado (`highlighted`) — "¡Hola! Soy Vero, diseñadora UX/UI y analista funcional, especializada en transformar problemas complejos de negocio en experiencias digitales claras y viables." — seguido de la bio completa actualizada (trayectoria como diseñadora gráfica/web, 15 años de docencia en FADU-UBA, certificación CSPO®) |
+| `SobreMiSection.css` | Nueva clase `.sobre-mi__bio--highlighted` para el párrafo destacado: `font-size: 20px`, `font-weight: var(--weight-bold)` |
+| `Header.jsx` | Eliminado el link "Sobre mí" del menú de navegación (desktop y mobile) — ya no hace scroll a `#sobre-mi`. Se removieron `handleSobreMi`, `useNavigate`, `useLocation` al quedar sin uso. La sección `SobreMiSection` sigue existiendo en la Home; solo se quitó el acceso desde el nav. El link "Sobre mí →" del Hero (CTA que ancla a `#sobre-mi`) no se tocó |
